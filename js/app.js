@@ -5,5 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelectorAll('.favorite'); // Récupère l'élément du bouton
   for (row of button) {
     row.addEventListener('click', addToFavorites); //affecter la même fonction
+    console.log(row);
   }
 });
